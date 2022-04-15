@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/image.css';
 
 class Image extends React.Component {
     constructor(props) {
@@ -12,8 +13,8 @@ class Image extends React.Component {
         const response = await fetch(url);
         const responseJSON = await response.json();
 
-        const responsePokemon = responseJSON.sprites.front_default;
-        document.getElementById("myImg").src = responsePokemon;
+        const responsePokemon1 = responseJSON.sprites.front_default;
+        document.getElementById("myImg1").src = responsePokemon1;
     }
 
     componentDidMount() {
@@ -26,7 +27,9 @@ class Image extends React.Component {
 
     render () {
         return (
-            <img id="myImg" alt = "Pokémon"></img>
+            <div>
+                <img id="myImg1" alt = "Pokémon1"></img>
+            </div>
         );
     }
 }

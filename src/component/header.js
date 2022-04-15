@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/header.css';
 
 class Header extends React.Component {
     constructor(props) {
@@ -33,7 +34,11 @@ class Header extends React.Component {
 
     render () {
         return (
-            <p>{this.state.pokeName}</p>
+            <div id = "headerborder">
+              <div id = "header">
+                <h1>{this.state.pokeName} (#{this.props.index})</h1>
+              </div>
+            </div>
         );
     }
 }
