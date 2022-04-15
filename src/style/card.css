@@ -1,0 +1,39 @@
+#card {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #5e83eb;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.335));
+    text-align: center;
+    overflow: auto;
+  }
+
+#buttons {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 15px 15px;
+}
+
+#buttons button {
+  background-color: #ff5100;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  filter: drop-shadow(0 5px 8px hsla(19, 100%, 36%, 0.575));
+}
+
+#prev {
+    margin: 10px;
+    float: left;
+}
+
+#next {
+    margin: 10px;
+    float: left;
+}
