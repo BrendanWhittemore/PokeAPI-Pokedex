@@ -1,7 +1,7 @@
 # PokéAPI Pokédex
 
 ## Project Description
-A simple card interface to view the origial 151 Pokémon.
+A simple card interface to view the original 151 Pokémon.
 
 ## Getting Started
 ```
