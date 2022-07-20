@@ -1,10 +1,25 @@
 # PokéAPI Pokédex
 
-## Background
-This project was completed as part of the Purdue IEEE Software Saturdays workshop in Spring 2022. This was my first exposure to HTML, CSS, JavaScript, and the React library.
+## Project Description
+A simple card interface to view the origial 151 Pokémon.
 
-## Description
-This project interfaces with the PokéAPI found <a href = https://pokeapi.co>here</a> to import names and sprites and provides a basic card interface to click through and view the name, number, and sprite of each of the original 151 Pokémon.
+## Getting Started
+```
+git clone https://github.com/BrendanWhittemore/PokeAPI-Pokedex.git
+cd PokeAPI-Pokedex
+npm install
+npm start
+```
 
-## How to Use
-This project is a React app, so after cloning or downloading the project it can be ran with `npm install` followed by `npm start`. More details on getting started with React can be found <a href = https://reactjs.org/docs/getting-started.htmlhttps://reactjs.org/docs/getting-started.html>here</a>.
+## Objectives
+This project was completed as part of the Purdue IEEE Software Saturdays workshop. This was my first exposure to HTML, CSS, JavaScript, and the React library.
+
+## Built With
+### Languages
+<p><a href = "https://www.javascript.com/">JavaScript</a></p>
+<p><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></p>
+<p><a href = "https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></p>
+
+### Frameworks, Libraries, and Tools
+<p><a href = "https://reactjs.org/">React</a></p>
+<p><a href = "https://pokeapi.co/">PokéAPI</a> - Pulled all Pokémon names and images</p>
