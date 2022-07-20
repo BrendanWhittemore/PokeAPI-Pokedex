@@ -1,5 +1,4 @@
 # PokéAPI Pokédex
----
 
 ## Background
 This project was completed as part of the Purdue IEEE Software Saturdays workshop in Spring 2022. This was my first exposure to HTML, CSS, JavaScript, and the React library.
